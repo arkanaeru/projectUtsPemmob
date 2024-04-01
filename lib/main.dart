@@ -33,7 +33,8 @@ class _MainPageStateState extends State<MainPageState> {
       akreditasi: " A dan FIBAA",
       ketuaProgramStudi: " Riko Setya Wijaya, S.E., M.M",
       dosen: "Dr. Dosen1, Dr. Dosen2",
-      website: "https://ekbang.upnjatim.ac.id/",
+      website: "https://ekbang.upnjatim.ac.id/", 
+      prestasimahasiswa: '',
     ),
 
     User(
@@ -46,7 +47,8 @@ class _MainPageStateState extends State<MainPageState> {
       akreditasi: "A dan FIBAA",
       ketuaProgramStudi: "Dr. Dra. Ec. Endah Susilowati, M.Si, CFrA, CBV, CMA",
       dosen: "Dr. Dosen1, Dr. Dosen2",
-      website: "https://akuntansi.upnjatim.ac.id/",
+      website: "https://akuntansi.upnjatim.ac.id/", 
+      prestasimahasiswa: '',
     ),
 
     User(
@@ -59,7 +61,8 @@ class _MainPageStateState extends State<MainPageState> {
       akreditasi: "Unggul dan FIBAA",
       ketuaProgramStudi: "Dra. Ec. Nurjanti Takarini, M.Si.",
       dosen: "Dr. Dosen1, Dr. Dosen2",
-      website: "https://manajemen.upnjatim.ac.id/",
+      website: "https://manajemen.upnjatim.ac.id/", 
+      prestasimahasiswa: '',
     ),
 
     User(
@@ -72,7 +75,8 @@ class _MainPageStateState extends State<MainPageState> {
       akreditasi: "B (Baik)",
       ketuaProgramStudi: "Dr. Hesty Prima Rini, SE., MM ",
       dosen: "Dr. Dosen1, Dr. Dosen2",
-      website: "https://kwu.upnjatim.ac.id/",
+      website: "https://kwu.upnjatim.ac.id/", 
+      prestasimahasiswa: '',
     ),
 
     User(
@@ -85,7 +89,8 @@ class _MainPageStateState extends State<MainPageState> {
       akreditasi: "Baik Sekali dan FIBAA",
       ketuaProgramStudi: "Dr. Dra. Ec. Endah Susilowati, M.Si, CFrA, CBV, CMA",
       dosen: "Dr. Dosen1, Dr. Dosen2",
-      website: "https://mak.upnjatim.ac.id/",
+      website: "https://mak.upnjatim.ac.id/", 
+      prestasimahasiswa: '',
     ),
     // Tambahkan data user yang lain sesuai kebutuhan
   ];
@@ -290,6 +295,7 @@ class User {
   final String akreditasi;
   final String ketuaProgramStudi;
   final String dosen;
+  final String prestasimahasiswa;
   final String website;
 
   const User({
@@ -301,6 +307,7 @@ class User {
     required this.akreditasi,
     required this.ketuaProgramStudi,
     required this.dosen,
+    required this.prestasimahasiswa,
     required this.website,
   });
 }
